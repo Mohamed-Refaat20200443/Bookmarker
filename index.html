@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Bookmarker</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylee.css">
+</head>
+<body>
+
+
+
+    <section class="page">
+
+        <div class="main-title w-75  m-auto py-5 mb-4 text-center">
+
+            <h1 class="mb-2">Bookmarker</h1>
+
+
+            <div class="title d-flex justify-content-center align-items-center text-success">
+                <h2 class="second-title my-3"><i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites <i class="fa-solid fa-bookmark"></i></h2>
+            </div>
+        </div>
+
+
+        <div class="w-75 m-auto py-4">
+
+
+            <label for="sn" class="d-flex  align-items-center mb-2">
+                <i class="fa-solid fa-book-bookmark pe-2"></i> Site Name</label>
+        <input type="text" id="sn" class="form-control mb-3">
+
+
+        <label for="su" class="d-flex  align-items-center mb-2">
+            
+            <i class="fa-solid fa-link pe-2"></i>
+            Site URL</label>
+        <input type="text" id="su" class="form-control mb-3 ">
+
+
+        
+
+
+        
+
+
+
+
+
+
+
+        <div class="button text-center mt-4">
+            <button onclick="addUrl()"  class="btn btn-outline-success btn-lg " id="submit">Submit</button>
+
+        </div>
+
+
+
+        <input type="text" id="search" onkeyup="searchElement()" placeholder="Search..." class="form-control mb-3 mt-3">
+
+
+
+
+
+
+
+
+
+
+
+        <table class="table table-striped mt-4 text-center" >
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Website Name</th>
+                     <a href="" class="text-white"></a>
+                    <th>Visit</th>
+                    <th>Delete</th>
+                    <th>Update</th>
+                </tr>
+            </thead>
+            <tbody id="display">
+                
+            </tbody>
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </section>
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
